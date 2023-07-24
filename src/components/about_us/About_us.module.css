@@ -6,7 +6,9 @@
 
 .heading {
   font-family: Cinzel;
-  font-size: 24px;
+  /* font-family: Abril Fatface, cursive; */
+
+  font-size: 32px;
   font-weight: 700;
   line-height: 32px;
   letter-spacing: 0em;
@@ -17,7 +19,7 @@
 .para {
   font-family: Roboto;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 27px;
   letter-spacing: 0em;
   text-align: center;
@@ -46,7 +48,7 @@
 
 .card_heading {
   font-family: Cinzel;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 700;
   line-height: 27px;
   letter-spacing: 0em;
@@ -56,7 +58,7 @@
 .card_para {
   font-family: Roboto;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 22px;
   letter-spacing: 0em;
   text-align: center;
@@ -83,7 +85,7 @@
 @media screen and (max-width: 920px) {
   .heading {
     font-family: Cinzel;
-    font-size: 20px;
+    font-size: 26px;
     font-weight: 700;
     line-height: 32px;
     letter-spacing: 0em;
@@ -94,7 +96,7 @@
   .para {
     font-family: Roboto;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 27px;
     letter-spacing: 0em;
     text-align: center;
@@ -124,7 +126,7 @@
 
   .card_heading {
     font-family: Cinzel;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 27px;
     letter-spacing: 0em;
@@ -134,7 +136,7 @@
   .card_para {
     font-family: Roboto;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 22px;
     letter-spacing: 0em;
     text-align: center;
@@ -151,7 +153,7 @@
 @media screen and (max-width: 600px) {
   .heading {
     font-family: Cinzel;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 32px;
     letter-spacing: 0em;
@@ -163,7 +165,7 @@
   .para {
     font-family: Roboto;
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 22px;
     letter-spacing: 0em;
     text-align: center;
@@ -193,7 +195,7 @@
 
   .card_heading {
     font-family: Cinzel;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 700;
     line-height: 27px;
     letter-spacing: 0em;
@@ -203,7 +205,7 @@
   .card_para {
     font-family: Roboto;
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 22px;
     letter-spacing: 0em;
     text-align: center;

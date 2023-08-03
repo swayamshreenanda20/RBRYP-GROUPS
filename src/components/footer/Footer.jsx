@@ -6,7 +6,7 @@ import ig from "../../assets/ig.png";
 
 const Footer = () => {
   return (
-    <div className={css.footer}>
+    <div className={css.footer} id="contact_us">
       <img src={logo2} alt="" className={css.logo} />
       <div className={css.right}>
         <input type="text" className={css.input} placeholder="Your E-Mail" />

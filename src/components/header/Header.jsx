@@ -97,18 +97,18 @@ const Header = () => {
               ABOUT US
             </Link>
           </li>
-          {/* <li className={css.menu_list}>
+          <li className={css.menu_list}>
             <Link
-              to="offers"
+              to="contact us"
               activeClass="active"
               spy={true}
               smooth={true}
               offset={-100}
               duration={500}
               onClick={handleClick}>
-              OFFERS
+              CONTACT US
             </Link>
-          </li> */}
+          </li>
         </div>
         <div className={css.menu_mbl} onClick={handleClick}>
           <i className={click ? "fas fa-times fa-lg" : "fas fa-bars fa-lg"} />

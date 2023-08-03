@@ -134,7 +134,8 @@
 
   .menu_mbl {
     display: flex;
-    color: rgba(180, 105, 69, 1);
+    /* color: rgba(180, 105, 69, 1); */
+    color: #ffffff;
   }
 
   .mbl_menu_lists {

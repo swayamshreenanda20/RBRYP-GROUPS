@@ -2,9 +2,14 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background-color: rgba(180, 105, 69, 0.59);
+  background-color: rgba(64, 82, 106, 1);
 
   margin-top: 50px;
+}
+
+.logo {
+  width: 400px;
+  height: 300px;
 }
 
 .right {
@@ -91,9 +96,14 @@
   height: 21px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .footer {
     margin-top: 40px;
+  }
+
+  .logo {
+    width: 280px;
+    height: 200px;
   }
 
   .input {
@@ -181,7 +191,8 @@
   }
 
   .logo {
-    width: 120px;
+    height: 140px;
+    width: 200px;
     margin-top: 15px;
   }
 

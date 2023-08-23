@@ -6,7 +6,7 @@ import food from "../../assets/food.png";
 import school from "../../assets/school.png";
 import cloth from "../../assets/cloth.png";
 import lounge from "../../assets/lounge.png";
-import pool from "../../assets/hotel.png";
+import pool from "../../assets/pool.png";
 
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 

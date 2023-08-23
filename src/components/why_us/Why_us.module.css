@@ -33,6 +33,13 @@
   margin-top: 40px;
 }
 
+.cards > :nth-child(odd) {
+  background-color: rgba(133, 185, 210, 0.8);
+}
+.cards > :nth-child(even) {
+  background-color: rgba(179, 211, 228, 0.7);
+}
+
 .card {
   display: flex;
   align-items: center;
@@ -41,7 +48,6 @@
   width: 350px;
   height: 240px;
   padding: 0 15px;
-  background-color: rgba(180, 105, 69, 1);
 }
 
 .card_heading {

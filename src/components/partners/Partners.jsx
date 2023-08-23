@@ -21,11 +21,11 @@ const Partners = () => {
           <p className={css.name}>RAJAT SINGH</p>
           <p className={css.post}>CEO/ CO-FOUNDER</p>
         </div>
-        <div className={css.card}>
+        {/* <div className={css.card}>
           <img src={partner1} alt="" className={css.img} />
           <p className={css.name}>RAJAT SINGH</p>
           <p className={css.post}>CEO/ CO-FOUNDER</p>
-        </div>
+        </div> */}
       </div>
     </div>
   );

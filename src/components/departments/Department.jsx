@@ -6,7 +6,7 @@ import food from "../../assets/food.png";
 import school from "../../assets/school.png";
 import cloth from "../../assets/cloth.png";
 import lounge from "../../assets/lounge.png";
-import pool from "../../assets/hotel.png";
+import pool from "../../assets/pool.png";
 
 const Department = () => {
   return (
@@ -27,7 +27,7 @@ const Department = () => {
             backgroundImage: `url(${hotel})`,
             backgroundSize: "cover",
           }}>
-          <p className={css.img_para}>HOTEL</p>
+          <p className={css.img_para}>Hospitality</p>
         </div>
         <div
           className={css.img}
@@ -35,7 +35,7 @@ const Department = () => {
             backgroundImage: `url(${auto})`,
             backgroundSize: "cover",
           }}>
-          <p className={css.img_para}>AUTO</p>
+          <p className={css.img_para}>Automobiles</p>
         </div>
         <div
           className={css.img}
@@ -43,7 +43,7 @@ const Department = () => {
             backgroundImage: `url(${jewell})`,
             backgroundSize: "cover",
           }}>
-          <p className={css.img_para}>JEWELL</p>
+          <p className={css.img_para}>Jewellery</p>
         </div>
         <div
           className={css.img}
@@ -51,7 +51,7 @@ const Department = () => {
             backgroundImage: `url(${food})`,
             backgroundSize: "cover",
           }}>
-          <p className={css.img_para}>FOOD</p>
+          <p className={css.img_para}>Restaurant</p>
         </div>
         <div
           className={css.img}
@@ -59,7 +59,7 @@ const Department = () => {
             backgroundImage: `url(${school})`,
             backgroundSize: "cover",
           }}>
-          <p className={css.img_para}>SCHOOL</p>
+          <p className={css.img_para}>Education</p>
         </div>
         <div
           className={css.img}
@@ -67,7 +67,7 @@ const Department = () => {
             backgroundImage: `url(${cloth})`,
             backgroundSize: "cover",
           }}>
-          <p className={css.img_para}>CLOTH</p>
+          <p className={css.img_para}>Clothing</p>
         </div>
         <div
           className={css.img}
@@ -75,7 +75,7 @@ const Department = () => {
             backgroundImage: `url(${pool})`,
             backgroundSize: "cover",
           }}>
-          <p className={css.img_para}>POOL</p>
+          <p className={css.img_para}>Hotel</p>
         </div>
         <div
           className={css.img}
@@ -83,7 +83,7 @@ const Department = () => {
             backgroundImage: `url(${lounge})`,
             backgroundSize: "cover",
           }}>
-          <p className={css.img_para}>LOUNGE</p>
+          <p className={css.img_para}>Lounge</p>
         </div>
         {/* <img src={hotel} alt="" className={css.img} />
         <img src={auto} alt="" className={css.img} />

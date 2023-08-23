@@ -1,5 +1,5 @@
 import css from "./Footer.module.css";
-import logo2 from "../../assets/logo2.png";
+import logo_dark from "../../assets/logo_dark.png";
 import fb from "../../assets/fb.png";
 import yt from "../../assets/yt.png";
 import ig from "../../assets/ig.png";
@@ -7,7 +7,7 @@ import ig from "../../assets/ig.png";
 const Footer = () => {
   return (
     <div className={css.footer} id="contact_us">
-      <img src={logo2} alt="" className={css.logo} />
+      <img src={logo_dark} alt="" className={css.logo} />
       <div className={css.right}>
         <input type="text" className={css.input} placeholder="Your E-Mail" />
         <div className={css.middle}>

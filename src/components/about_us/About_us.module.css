@@ -42,8 +42,9 @@
   position: relative;
   width: 310px;
   height: 350px;
-  box-shadow: 0px 0px 19px 0px #f49a1140;
+  box-shadow: 0px 0px 19px 0px rgba(133, 185, 210, 1);
   border-radius: 10px;
+  background-color: rgba(255, 252, 255, 1);
 }
 
 .card_heading {

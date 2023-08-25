@@ -1,0 +1,49 @@
+.neckless {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  font-family: Cinzel;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 67px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.neckless_imgs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.neckless_img {
+  height: 150px;
+  width: 233px;
+}
+
+@media screen and (max-width: 900px) {
+  .heading {
+    font-family: Cinzel;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0.03em;
+    text-align: left;
+  }
+  .neckless_imgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .neckless_img {
+    height: 120px;
+    width: 200px;
+  }
+}

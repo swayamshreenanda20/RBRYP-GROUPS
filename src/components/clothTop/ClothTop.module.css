@@ -1,0 +1,89 @@
+.cloth_top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.heading {
+  font-family: Cinzel;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 67px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Para {
+  font-family: sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  width: 80%;
+}
+
+@media screen and (max-width: 1200px) {
+  .heading {
+    font-family: Cinzel;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .Para {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .heading {
+    font-family: Cinzel;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .Para {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    width: 80%;
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .heading {
+    font-family: Cinzel;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .Para {
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    width: 90%;
+    margin-top: 0;
+  }
+}

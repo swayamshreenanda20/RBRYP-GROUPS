@@ -1,0 +1,189 @@
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  font-family: Cinzel;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 67px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.jewellery_imgs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.left {
+  display: flex;
+  flex: 5;
+}
+
+.left_img {
+  width: 500px;
+  height: 700px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.right_img1,
+.right_img2 {
+  width: 600px;
+  height: 330px;
+}
+
+@media screen and (max-width: 1200px) {
+  .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .heading {
+    font-family: Cinzel;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.03em;
+    text-align: left;
+  }
+
+  .jewellery_imgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .left {
+    display: flex;
+    flex: 5;
+  }
+
+  .left_img {
+    width: 400px;
+    height: 600px;
+  }
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .right_img1,
+  .right_img2 {
+    width: 500px;
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .heading {
+    font-family: Cinzel;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0.03em;
+    text-align: left;
+  }
+
+  .jewellery_imgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .left {
+    display: flex;
+    flex: 5;
+  }
+
+  .left_img {
+    width: 300px;
+    height: 480px;
+  }
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .right_img1,
+  .right_img2 {
+    width: 400px;
+    height: 220px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .heading {
+    font-family: Cinzel;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0.03em;
+    text-align: left;
+  }
+
+  .jewellery_imgs {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .left {
+    display: flex;
+    flex: 12;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .left_img {
+    width: 270px;
+    height: 330px;
+  }
+
+  .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .right_img1,
+  .right_img2 {
+    width: 270px;
+    height: 150px;
+  }
+}

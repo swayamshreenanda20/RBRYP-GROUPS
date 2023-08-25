@@ -1,0 +1,134 @@
+.middle_top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px 40px;
+}
+
+.auto_heading {
+  display: flex;
+  flex: 12;
+  font-family: Cinzel;
+  font-size: 50px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.auto_para {
+  display: flex;
+  flex: 7;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  text-align: left;
+}
+
+.auto_img_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auto_img {
+  width: 100%;
+  height: 500px;
+}
+
+@media screen and (max-width: 1200px) {
+  .auto_heading {
+    line-height: 42px;
+  }
+
+  .auto_img {
+    width: 100%;
+    height: 440px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .middle_top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px 30px;
+  }
+
+  .auto_heading {
+    display: flex;
+    flex: 5;
+    font-family: Cinzel;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .auto_para {
+    display: flex;
+    flex: 7;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    text-align: left;
+  }
+
+  .auto_img {
+    width: 100%;
+    height: 330px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .middle_top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    padding: 20px 10px;
+  }
+
+  .auto_heading {
+    display: flex;
+    flex: 5;
+    font-family: Cinzel;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 0;
+  }
+
+  .auto_para {
+    display: flex;
+    flex: 7;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    text-align: left;
+  }
+
+  .auto_img_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .auto_img {
+    width: 100%;
+    height: 230px;
+  }
+}

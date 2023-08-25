@@ -2,12 +2,18 @@ import css from "./Header.module.css";
 import { Link } from "react-scroll";
 import logo from "../../assets/logo.png";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
   const [click, setClick] = useState(false);
+  const navigate = useNavigate();
 
   const handleClick = () => {
     setClick(!click);
+  };
+
+  const goToHome = () => {
+    navigate("/");
   };
 
   return (
@@ -49,7 +55,7 @@ const Header = () => {
           </li> */}
         </div>
         <div className={css.header_center}>
-          <Link to="/" className={css.logo_box}>
+          <Link to="/" className={css.logo_box} onClick={goToHome}>
             <img src={logo} alt="logo" className={css.logo} />
           </Link>
         </div>
@@ -69,7 +75,7 @@ const Header = () => {
       </div>
 
       <div className={css.header_mbl}>
-        <Link to="/" className={css.mbl_logo}>
+        <Link to="/" className={css.mbl_logo} onClick={goToHome}>
           <img src={logo} alt="logo" className={css.mbl_logo_img} />
         </Link>
         <div className={click ? css.mbl_menu_lists : css.nav_lists}>
@@ -99,7 +105,7 @@ const Header = () => {
           </li>
           <li className={css.menu_list}>
             <Link
-              to="contact us"
+              to="contact_us"
               activeClass="active"
               spy={true}
               smooth={true}

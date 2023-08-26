@@ -1,11 +1,63 @@
 import css from "./Hero.module.css";
-import hero_img from "../../assets/hero_img.png";
+import gh1 from "../../assets/gh1.png";
+import gh2 from "../../assets/gh2.png";
+import gh3 from "../../assets/gh3.png";
+import gh4 from "../../assets/gh4.png";
+import gh6 from "../../assets/gh6.png";
+import gh7 from "../../assets/gh7.png";
+import gh8 from "../../assets/gh8.png";
 import { Link } from "react-router-dom";
+import Slider from "react-slick";
 
 const Hero = () => {
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
   return (
     <div className={css.hero} id="/">
-      <img src={hero_img} alt="" className={css.hero_bg} />
+      <div>
+        <Slider {...settings}>
+          <div>
+            <div className="auto_img_box">
+              <img src={gh1} alt="" className="auto_img" />
+            </div>
+          </div>
+          <div>
+            <div className="auto_img_box">
+              <img src={gh2} alt="" className="auto_img" />
+            </div>
+          </div>
+          <div>
+            <div className="auto_img_box">
+              <img src={gh3} alt="" className="auto_img" />
+            </div>
+          </div>
+          <div>
+            <div className="auto_img_box">
+              <img src={gh4} alt="" className="auto_img" />
+            </div>
+          </div>
+          <div>
+            <div className="auto_img_box">
+              <img src={gh6} alt="" className="auto_img" />
+            </div>
+          </div>
+          <div>
+            <div className="auto_img_box">
+              <img src={gh7} alt="" className="auto_img" />
+            </div>
+          </div>
+          <div>
+            <div className="auto_img_box">
+              <img src={gh8} alt="" className="auto_img" />
+            </div>
+          </div>
+        </Slider>
+      </div>
       <div className={css.hero_bottom}>
         <Link to="/cloth" style={{ textDecoration: "none", color: "#000000" }}>
           <div className={css.bottom_card}>

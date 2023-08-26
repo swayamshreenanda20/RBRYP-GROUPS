@@ -7,6 +7,7 @@ import school from "../../assets/school.png";
 import cloth from "../../assets/cloth.png";
 import lounge from "../../assets/lounge.png";
 import pool from "../../assets/pool.png";
+import { Link } from "react-router-dom";
 
 const Department = () => {
   return (
@@ -21,38 +22,52 @@ const Department = () => {
         community with excellence in every endeavour.
       </p>
       <div className={css.imgs}>
-        <div
-          className={css.img}
-          style={{
-            backgroundImage: `url(${hotel})`,
-            backgroundSize: "cover",
-          }}>
-          <p className={css.img_para}>Hospitality</p>
-        </div>
-        <div
-          className={css.img}
-          style={{
-            backgroundImage: `url(${auto})`,
-            backgroundSize: "cover",
-          }}>
-          <p className={css.img_para}>Automobiles</p>
-        </div>
-        <div
-          className={css.img}
-          style={{
-            backgroundImage: `url(${jewell})`,
-            backgroundSize: "cover",
-          }}>
-          <p className={css.img_para}>Jewellery</p>
-        </div>
-        <div
-          className={css.img}
-          style={{
-            backgroundImage: `url(${food})`,
-            backgroundSize: "cover",
-          }}>
-          <p className={css.img_para}>Restaurant</p>
-        </div>
+        <Link to="/hotel" style={{ textDecoration: "none", color: "#000000" }}>
+          <div
+            className={css.img}
+            style={{
+              backgroundImage: `url(${hotel})`,
+              backgroundSize: "cover",
+            }}>
+            <p className={css.img_para}>Hospitality</p>
+          </div>
+        </Link>
+        <Link
+          to="/auto-mobile"
+          style={{ textDecoration: "none", color: "#000000" }}>
+          <div
+            className={css.img}
+            style={{
+              backgroundImage: `url(${auto})`,
+              backgroundSize: "cover",
+            }}>
+            <p className={css.img_para}>Automobiles</p>
+          </div>
+        </Link>
+        <Link
+          to="/jewellery"
+          style={{ textDecoration: "none", color: "#000000" }}>
+          <div
+            className={css.img}
+            style={{
+              backgroundImage: `url(${jewell})`,
+              backgroundSize: "cover",
+            }}>
+            <p className={css.img_para}>Jewellery</p>
+          </div>
+        </Link>
+        <Link
+          to="/restaurant"
+          style={{ textDecoration: "none", color: "#000000" }}>
+          <div
+            className={css.img}
+            style={{
+              backgroundImage: `url(${food})`,
+              backgroundSize: "cover",
+            }}>
+            <p className={css.img_para}>Restaurant</p>
+          </div>
+        </Link>
         <div
           className={css.img}
           style={{
@@ -61,38 +76,36 @@ const Department = () => {
           }}>
           <p className={css.img_para}>Education</p>
         </div>
-        <div
-          className={css.img}
-          style={{
-            backgroundImage: `url(${cloth})`,
-            backgroundSize: "cover",
-          }}>
-          <p className={css.img_para}>Clothing</p>
-        </div>
-        <div
-          className={css.img}
-          style={{
-            backgroundImage: `url(${pool})`,
-            backgroundSize: "cover",
-          }}>
-          <p className={css.img_para}>Hotel</p>
-        </div>
-        <div
-          className={css.img}
-          style={{
-            backgroundImage: `url(${lounge})`,
-            backgroundSize: "cover",
-          }}>
-          <p className={css.img_para}>Lounge</p>
-        </div>
-        {/* <img src={hotel} alt="" className={css.img} />
-        <img src={auto} alt="" className={css.img} />
-        <img src={jewell} alt="" className={css.img} />
-        <img src={food} alt="" className={css.img} />
-        <img src={school} alt="" className={css.img} />
-        <img src={cloth} alt="" className={css.img} />
-        <img src={pool} alt="" className={css.img} />
-        <img src={lounge} alt="" className={css.img} /> */}
+        <Link to="/cloth" style={{ textDecoration: "none", color: "#000000" }}>
+          <div
+            className={css.img}
+            style={{
+              backgroundImage: `url(${cloth})`,
+              backgroundSize: "cover",
+            }}>
+            <p className={css.img_para}>Clothing</p>
+          </div>
+        </Link>
+        <Link to="/hotel" style={{ textDecoration: "none", color: "#000000" }}>
+          <div
+            className={css.img}
+            style={{
+              backgroundImage: `url(${pool})`,
+              backgroundSize: "cover",
+            }}>
+            <p className={css.img_para}>Hotel</p>
+          </div>
+        </Link>
+        <Link to="/lounge" style={{ textDecoration: "none", color: "#000000" }}>
+          <div
+            className={css.img}
+            style={{
+              backgroundImage: `url(${lounge})`,
+              backgroundSize: "cover",
+            }}>
+            <p className={css.img_para}>Lounge</p>
+          </div>
+        </Link>
       </div>
     </div>
   );

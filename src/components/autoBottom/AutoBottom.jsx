@@ -11,11 +11,13 @@ const AutoBottom = () => {
       <div className={css.right}>
         <h2 className={css.heading}>Customer Satisfaction At Bajaj Showroom</h2>
         <p className={css.para}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam iure
-          consectetur cupiditate praesentium molestiae nisi amet odio dolor sunt
-          error natus dignissimos, repudiandae quam, consequatur rerum expedita
-          commodi voluptates non beatae, doloribus accusamus suscipit recusandae
-          earum! Nostrum facere voluptas eveniet.
+          At Ram Bhawan Ram Bajaj showroom in Motihari, your satisfaction is our
+          priority. We take pride in providing you with a seamless and enjoyable
+          experience. Our dedicated team is here to assist you in finding the
+          perfect Bajaj vehicle that suits your needs. From exploring options to
+          making a decision, we're with you every step of the way. Your
+          happiness is our success, and we strive to ensure that you leave our
+          showroom with a smile.
         </p>
       </div>
     </div>

@@ -92,10 +92,15 @@ const Hero = () => {
         <Link to="/lounge" style={{ textDecoration: "none", color: "#000000" }}>
           <div className={css.bottom_card}>ram bhawan Ram lounge</div>
         </Link>
-        <div className={css.bottom_card}>
-          G.D GOENKA Public School (Ram Bhawna ram Yamuna prasad educational
-          trust )
-        </div>
+        <Link
+          to="https://www.gdgoenkamotihari.com"
+          target="_blank"
+          style={{ textDecoration: "none", color: "#000000" }}>
+          <div className={css.bottom_card}>
+            G.D GOENKA Public School (Ram Bhawna ram Yamuna prasad educational
+            trust )
+          </div>
+        </Link>
       </div>
     </div>
   );

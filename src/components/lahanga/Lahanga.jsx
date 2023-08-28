@@ -43,7 +43,7 @@ const Lahanga = () => {
   };
   return (
     <div className="gallery">
-      <h2 className="heading_gallery"> Our Lahanga Gallery </h2>
+      <h2 className="heading_gallery"> Our Lehenga Collection </h2>
       <Slider {...settings} className="slider_box">
         <div>
           <div className="img_box">

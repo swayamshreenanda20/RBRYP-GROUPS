@@ -20,17 +20,12 @@ const HeroResto = () => {
   return (
     <div>
       <div className="middle_top">
-        <h2 className="auto_heading">The RBRYP RESTAURANT</h2>
+        <h2 className="auto_heading">The FAMILY BAWARCHI RESTAURANT</h2>
       </div>
       <Slider {...settings}>
         <div>
           <div className="auto_img_box">
             <img src={rest} alt="" className="auto_img" />
-          </div>
-        </div>
-        <div>
-          <div className="auto_img_box">
-            <img src={rest1} alt="" className="auto_img" />
           </div>
         </div>
         <div>
@@ -46,11 +41,6 @@ const HeroResto = () => {
         <div>
           <div className="auto_img_box">
             <img src={rest4} alt="" className="auto_img" />
-          </div>
-        </div>
-        <div>
-          <div className="auto_img_box">
-            <img src={rest5} alt="" className="auto_img" />
           </div>
         </div>
       </Slider>

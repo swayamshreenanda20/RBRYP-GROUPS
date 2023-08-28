@@ -9,7 +9,7 @@ import neck5 from "../../assets/neck5.png";
 const Neckless = () => {
   return (
     <div className={css.neckless}>
-      <h2 className={css.heading}>NECKLESS</h2>
+      <h2 className={css.heading}>Current Stocks</h2>
       <div className={css.neckless_imgs}>
         <img src={neck1} alt="" className={css.neckless_img} />
         <img src={neck2} alt="" className={css.neckless_img} />

@@ -10,18 +10,18 @@ const Footer = () => {
     <div className={css.footer} id="contact_us">
       <img src={logo_dark} alt="" className={css.logo} />
       <div className={css.right}>
-        <input type="text" className={css.input} placeholder="Your E-Mail" />
+        <input type="text" className={css.input} />
         <div className={css.middle}>
           <div className={css.middle1}>
-            <p className={css.title}>PARTNERSHIP</p>
+            <p className={css.title}>COMMUNITY</p>
             <p className={css.para}>Clothing</p>
             <p className={css.para}>Restaurant</p>
             <p className={css.para}>Auto-mobiles</p>
           </div>
           <div className={css.middle2}>
-            <p className={css.title}>ABOUT</p>
+            <p className={css.title}></p>
             <p className={css.para}>Jewellery</p>
-            <p className={css.para}>School</p>
+            <p className={css.para}>Education</p>
             <p className={css.para}>Hotel</p>
           </div>
           <div className={css.middle3}>

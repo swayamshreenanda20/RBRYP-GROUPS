@@ -46,7 +46,6 @@ const HotelGallery = () => {
   };
   return (
     <div className="gallery">
-      <p className="heading_para">our establishment</p>
       <h2 className="heading_gallery"> Our Gallery </h2>
       <Slider {...settings} className="slider_box">
         <div>

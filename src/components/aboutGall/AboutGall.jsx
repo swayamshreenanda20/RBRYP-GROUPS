@@ -5,7 +5,6 @@ import aboutr from "../../assets/aboutr.png";
 const AboutGall = () => {
   return (
     <div className={css.about}>
-      <p className={css.heading_para}>OUR HISTORY</p>
       <h2 className={css.heading}>ABOUT US</h2>
       <div className={css.bottom}>
         <div className={css.left}>

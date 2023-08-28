@@ -19,7 +19,7 @@ const HeroHotel = () => {
   return (
     <div>
       <div className="middle_top">
-        <h2 className="auto_heading">The RBRYP HOTEL</h2>
+        <h2 className="auto_heading">The RBRYP HOTEL & RESORT</h2>
       </div>
       <Slider {...settings}>
         <div>

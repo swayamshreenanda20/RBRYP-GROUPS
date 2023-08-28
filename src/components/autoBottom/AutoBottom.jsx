@@ -9,7 +9,7 @@ const AutoBottom = () => {
         <img src={auto_bottom_img} alt="" className={css.img_bottom} />
       </div>
       <div className={css.right}>
-        <h2 className={css.heading}>THE BAJAJ AUTO</h2>
+        <h2 className={css.heading}>Customer Satisfaction At Bajaj Showroom</h2>
         <p className={css.para}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam iure
           consectetur cupiditate praesentium molestiae nisi amet odio dolor sunt

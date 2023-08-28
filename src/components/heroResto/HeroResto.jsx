@@ -1,6 +1,11 @@
 import React from "react";
 import "./HeroResto.css";
 import rest from "../../assets/rest.png";
+import rest1 from "../../assets/rest1.png";
+import rest2 from "../../assets/rest2.png";
+import rest3 from "../../assets/rest3.png";
+import rest4 from "../../assets/rest4.png";
+import rest5 from "../../assets/rest5.png";
 
 import Slider from "react-slick";
 
@@ -25,22 +30,27 @@ const HeroResto = () => {
         </div>
         <div>
           <div className="auto_img_box">
-            <img src={rest} alt="" className="auto_img" />
+            <img src={rest1} alt="" className="auto_img" />
           </div>
         </div>
         <div>
           <div className="auto_img_box">
-            <img src={rest} alt="" className="auto_img" />
+            <img src={rest2} alt="" className="auto_img" />
           </div>
         </div>
         <div>
           <div className="auto_img_box">
-            <img src={rest} alt="" className="auto_img" />
+            <img src={rest3} alt="" className="auto_img" />
           </div>
         </div>
         <div>
           <div className="auto_img_box">
-            <img src={rest} alt="" className="auto_img" />
+            <img src={rest4} alt="" className="auto_img" />
+          </div>
+        </div>
+        <div>
+          <div className="auto_img_box">
+            <img src={rest5} alt="" className="auto_img" />
           </div>
         </div>
       </Slider>

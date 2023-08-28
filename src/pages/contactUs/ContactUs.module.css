@@ -1,0 +1,201 @@
+.contact_us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  font-family: Cinzel;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 67px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.branches {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 0 40px;
+}
+
+.branch {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+  width: 100%;
+  padding: 0 20px;
+  box-shadow: 0px 0px 19px 0px rgba(133, 185, 210, 1);
+}
+
+.name {
+  display: flex;
+  flex: 4.5;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.address {
+  display: flex;
+  flex: 4.5;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.num {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  color: #000;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.name,
+.address,
+.num {
+  font-family: Cinzel;
+
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@media screen and (max-width: 1200px) {
+  .heading {
+    font-family: Cinzel;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0.03em;
+    text-align: left;
+  }
+
+  .branches {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 40px;
+  }
+
+  .branch {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 40px;
+    width: 100%;
+    padding: 0 20px;
+    box-shadow: 0px 0px 19px 0px rgba(133, 185, 210, 1);
+  }
+
+  .name {
+    display: flex;
+    flex: 4.5;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .address {
+    display: flex;
+    flex: 4.5;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .num {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    color: #000;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .name,
+  .address,
+  .num {
+    font-family: Cinzel;
+
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 690px) {
+  .heading {
+    font-family: Cinzel;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0.03em;
+    text-align: left;
+  }
+
+  .branches {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 40px;
+  }
+
+  .branch {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+    padding: 0 20px;
+    box-shadow: 0px 0px 19px 0px rgba(133, 185, 210, 1);
+  }
+
+  .name {
+    display: flex;
+    flex: 4.5;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 14px;
+  }
+
+  .address {
+    display: flex;
+    flex: 4.5;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 12px;
+  }
+
+  .num {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    color: #000;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 13px;
+  }
+
+  .name,
+  .address,
+  .num {
+    font-family: Cinzel;
+
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}

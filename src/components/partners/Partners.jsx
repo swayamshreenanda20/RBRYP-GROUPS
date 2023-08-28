@@ -20,8 +20,8 @@ const Partners = () => {
         </div>
         <div className={css.card}>
           <img src={partner1} alt="" className={css.img} />
-          <p className={css.name}>RAJAT SINGH</p>
-          <p className={css.post}>CEO/ CO-FOUNDER</p>
+          <p className={css.name}>SUMIT KUMAR</p>
+          <p className={css.post}>DIRECTOR</p>
         </div>
       </div>
     </div>

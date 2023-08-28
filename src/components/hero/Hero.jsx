@@ -88,13 +88,13 @@ const Hero = () => {
           style={{ textDecoration: "none", color: "#000000" }}>
           <div className={css.bottom_card}>the family bawarchi restaurant</div>
         </Link>
-        <div className={css.bottom_card}>atithi residency hotel</div>
+        <div className={css.bottom_card}>atithi Resedential</div>
         <Link to="/lounge" style={{ textDecoration: "none", color: "#000000" }}>
-          <div className={css.bottom_card}>ram bhawan lounge</div>
+          <div className={css.bottom_card}>ram bhawan Ram lounge</div>
         </Link>
         <div className={css.bottom_card}>
-          ram bhawan ram yamuna prasad educational trust ( G.D. GOENKA PUBLIC
-          SCHOOL)
+          G.D GOENKA Public School (Ram Bhawna ram Yamuna prasad educational
+          trust )
         </div>
       </div>
     </div>

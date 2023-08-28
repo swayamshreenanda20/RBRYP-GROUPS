@@ -12,11 +12,14 @@ const AutoTop = () => {
       <div className={css.right}>
         <h2 className={css.heading}>THE BAJAJ AUTO</h2>
         <p className={css.para}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam iure
-          consectetur cupiditate praesentium molestiae nisi amet odio dolor sunt
-          error natus dignissimos, repudiandae quam, consequatur rerum expedita
-          commodi voluptates non beatae, doloribus accusamus suscipit recusandae
-          earum! Nostrum facere voluptas eveniet.
+          Step into the world of two-wheeled excellence at our RBRYP Bajaj Bike
+          Showroom. Discover a diverse range of cutting-edge motorcycles that
+          blend performance, style, and innovation. Our showroom offers a
+          captivating experience, showcasing the latest models designed to
+          elevate your riding journey. From city commutes to thrilling
+          adventures, find your perfect ride in a space where passion for
+          motorcycles meets exceptional customer service. Welcome to a haven for
+          biking enthusiasts and those seeking quality on two wheels.
         </p>
         <img src={auto_arr} alt="" className={css.right_img} />
       </div>

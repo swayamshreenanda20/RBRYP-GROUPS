@@ -27,7 +27,7 @@
   justify-content: center;
 }
 
-.gallery_img {
+.gallery_img_lah {
   width: 400px;
   height: 500px;
 }
@@ -72,7 +72,7 @@
     text-align: center;
   }
 
-  .gallery_img {
+  .gallery_img_lah {
     width: 300px;
     height: 400px;
   }
@@ -100,7 +100,7 @@
     text-align: center;
   }
 
-  .gallery_img {
+  .gallery_img_lah {
     width: 300px;
     height: 400px;
   }
@@ -130,7 +130,7 @@
     margin-top: 0;
   }
 
-  .gallery_img {
+  .gallery_img_lah {
     width: 300px;
     height: 400px;
   }

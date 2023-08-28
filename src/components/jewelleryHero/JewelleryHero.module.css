@@ -14,6 +14,16 @@
   text-align: left;
 }
 
+.para {
+  font-family: sans-serif;
+  width: 85%;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
 .jewellery_imgs {
   display: flex;
   align-items: center;
@@ -58,6 +68,16 @@
     line-height: 57px;
     letter-spacing: 0.03em;
     text-align: left;
+  }
+
+  .para {
+    font-family: sans-serif;
+    width: 85%;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    text-align: center;
   }
 
   .jewellery_imgs {
@@ -107,6 +127,16 @@
     text-align: left;
   }
 
+  .para {
+    font-family: sans-serif;
+    width: 85%;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.06em;
+    text-align: center;
+  }
+
   .jewellery_imgs {
     display: flex;
     align-items: center;
@@ -151,6 +181,16 @@
     line-height: 37px;
     letter-spacing: 0.03em;
     text-align: left;
+  }
+
+  .para {
+    font-family: sans-serif;
+    width: 85%;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.06em;
+    text-align: center;
   }
 
   .jewellery_imgs {

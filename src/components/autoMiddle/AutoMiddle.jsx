@@ -21,13 +21,6 @@ const AutoMiddle = () => {
     <div>
       <div className="middle_top">
         <h2 className="auto_heading"> inauguration ceremony</h2>
-        <p className="auto_para">
-          Lorem ipsum dolor sit amet consectetur. In non facilisis nec
-          consectetur et. Nec varius ultrices etiam sed ut diam enim turpis
-          dignissim. Aliquam ut et et commodo vitae non volutpat sit. Faucibus
-          orci morbi dolor lacus scelerisque odio dui sed viverra. Donec enim
-          orci{" "}
-        </p>
       </div>
       <Slider {...settings}>
         <div>

@@ -1,6 +1,9 @@
 import React from "react";
 import "./LoungeGallery.css";
-import lounge_gallery from "../../assets/lounge_gallery.png";
+import lg1 from "../../assets/lg1.png";
+import lg2 from "../../assets/lg2.png";
+import lg3 from "../../assets/lg3.png";
+import lg4 from "../../assets/lg4.png";
 
 import Slider from "react-slick";
 
@@ -46,42 +49,22 @@ const LoungeGallery = () => {
       <Slider {...settings} className="slider_box">
         <div>
           <div className="img_box">
-            <img src={lounge_gallery} alt="" className="gallery_img" />
+            <img src={lg1} alt="" className="gallery_img" />
           </div>
         </div>
         <div>
           <div className="img_box">
-            <img src={lounge_gallery} alt="" className="gallery_img" />
+            <img src={lg2} alt="" className="gallery_img" />
           </div>
         </div>
         <div>
           <div className="img_box">
-            <img src={lounge_gallery} alt="" className="gallery_img" />
+            <img src={lg3} alt="" className="gallery_img" />
           </div>
         </div>
         <div>
           <div className="img_box">
-            <img src={lounge_gallery} alt="" className="gallery_img" />
-          </div>
-        </div>
-        <div>
-          <div className="img_box">
-            <img src={lounge_gallery} alt="" className="gallery_img" />
-          </div>
-        </div>
-        <div>
-          <div className="img_box">
-            <img src={lounge_gallery} alt="" className="gallery_img" />
-          </div>
-        </div>
-        <div>
-          <div className="img_box">
-            <img src={lounge_gallery} alt="" className="gallery_img" />
-          </div>
-        </div>
-        <div>
-          <div className="img_box">
-            <img src={lounge_gallery} alt="" className="gallery_img" />
+            <img src={lg4} alt="" className="gallery_img" />
           </div>
         </div>
       </Slider>

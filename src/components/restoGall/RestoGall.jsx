@@ -1,6 +1,9 @@
 import React from "react";
 import "./RestoGall.css";
-import restg from "../../assets/restg.png";
+import restg1 from "../../assets/restg1.png";
+import restg2 from "../../assets/restg2.png";
+import restg3 from "../../assets/restg3.png";
+import restg4 from "../../assets/restg4.png";
 
 import Slider from "react-slick";
 
@@ -46,32 +49,27 @@ const RestoGall = () => {
       <Slider {...settings} className="slider_box">
         <div>
           <div className="img_box">
-            <img src={restg} alt="" className="gallery_img" />
+            <img src={restg1} alt="" className="gallery_img" />
           </div>
         </div>
         <div>
           <div className="img_box">
-            <img src={restg} alt="" className="gallery_img" />
+            <img src={restg2} alt="" className="gallery_img" />
           </div>
         </div>
         <div>
           <div className="img_box">
-            <img src={restg} alt="" className="gallery_img" />
+            <img src={restg3} alt="" className="gallery_img" />
           </div>
         </div>
         <div>
           <div className="img_box">
-            <img src={restg} alt="" className="gallery_img" />
+            <img src={restg4} alt="" className="gallery_img" />
           </div>
         </div>
         <div>
           <div className="img_box">
-            <img src={restg} alt="" className="gallery_img" />
-          </div>
-        </div>
-        <div>
-          <div className="img_box">
-            <img src={restg} alt="" className="gallery_img" />
+            <img src={restg1} alt="" className="gallery_img" />
           </div>
         </div>
       </Slider>

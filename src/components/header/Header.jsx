@@ -15,6 +15,9 @@ const Header = () => {
   const goToHome = () => {
     navigate("/");
   };
+  const goToContact = () => {
+    navigate("/contactUs");
+  };
 
   return (
     <>
@@ -22,7 +25,7 @@ const Header = () => {
         <div className={css.header_left}>
           <li className={css.nav_list}>
             <Link
-              to="/"
+              onClick={goToHome}
               activeClass="active"
               spy={true}
               smooth={true}
@@ -60,16 +63,8 @@ const Header = () => {
           </Link>
         </div>
         <div className={css.header_right}>
-          <button className={css.btn}>
-            <Link
-              to="contact_us"
-              activeClass="active"
-              spy={true}
-              smooth={true}
-              offset={-100}
-              duration={500}>
-              CONTACT US
-            </Link>
+          <button className={css.btn} onClick={goToContact}>
+            CONTACT US
           </button>
         </div>
       </div>

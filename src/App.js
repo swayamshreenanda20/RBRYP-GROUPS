@@ -7,6 +7,7 @@ import Jewellery from "./pages/jewellery/Jewellery";
 import Cloth from "./pages/cloth/Cloth";
 import Restaurant from "./pages/resraurant/Restaurant";
 import Hotel from "./pages/hotel/Hotel";
+import ContactUs from "./pages/contactUs/ContactUs";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/cloth" element={<Cloth />} />
           <Route path="/hotel" element={<Hotel />} />
           <Route path="/restaurant" element={<Restaurant />} />
+          <Route path="/contactUs" element={<ContactUs />} />
         </Routes>
       </BrowserRouter>
     </>

@@ -47,47 +47,46 @@ const Serwani = () => {
   };
   return (
     <div className="gallery">
-      <p className="heading_para">our establishment</p>
       <h2 className="heading_gallery"> Our Serwani Gallery </h2>
       <Slider {...settings} className="slider_box">
         <div>
           <div className="img_box">
-            <img src={ser1} alt="" className="gallery_img" />
+            <img src={ser1} alt="" className="gallery_img_ser" />
           </div>
         </div>
         <div>
           <div className="img_box">
-            <img src={ser2} alt="" className="gallery_img" />
+            <img src={ser2} alt="" className="gallery_img_ser" />
           </div>
         </div>
         <div>
           <div className="img_box">
-            <img src={ser3} alt="" className="gallery_img" />
+            <img src={ser3} alt="" className="gallery_img_ser" />
           </div>
         </div>
         <div>
           <div className="img_box">
-            <img src={ser4} alt="" className="gallery_img" />
+            <img src={ser4} alt="" className="gallery_img_ser" />
           </div>
         </div>
         <div>
           <div className="img_box">
-            <img src={ser5} alt="" className="gallery_img" />
+            <img src={ser5} alt="" className="gallery_img_ser" />
           </div>
         </div>
         <div>
           <div className="img_box">
-            <img src={ser6} alt="" className="gallery_img" />
+            <img src={ser6} alt="" className="gallery_img_ser" />
           </div>
         </div>
         <div>
           <div className="img_box">
-            <img src={ser7} alt="" className="gallery_img" />
+            <img src={ser7} alt="" className="gallery_img_ser" />
           </div>
         </div>
         <div>
           <div className="img_box">
-            <img src={ser1} alt="" className="gallery_img" />
+            <img src={ser1} alt="" className="gallery_img_ser" />
           </div>
         </div>
       </Slider>

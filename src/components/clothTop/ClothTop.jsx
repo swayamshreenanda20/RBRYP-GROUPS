@@ -4,15 +4,17 @@ import css from "./ClothTop.module.css";
 const ClothTop = () => {
   return (
     <div className={css.cloth_top}>
-      <h1 className={css.heading}>THR RBRYP CLOTHS</h1>
+      <h1 className={css.heading}>THR RBRYP CLOTHINGS</h1>
       <p className={css.Para}>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed excepturi
-        doloribus itaque at sunt velit ex culpa dicta dignissimos, minima
-        quisquam qui voluptas cum, eaque amet tenetur tempora voluptatibus minus
-        quia labore molestiae nam. Quos voluptates commodi explicabo esse
-        numquam magni, sequi iusto enim facilis beatae eveniet sapiente mollitia
-        modi rerum praesentium! Laudantium minima eum assumenda molestiae
-        nostrum tempore magni.
+        Established in 1958, Ram Bhawan Ram Yamuna Prasad clothing shop
+        continues to be a timeless destination for traditional ethnic attire in
+        Motihari. With a legacy of over six decades, we take pride in offering
+        the finest selection of classic and authentic clothing. Our commitment
+        to preserving the essence of traditional fashion is reflected in every
+        piece we curate. From vibrant sarees to elegant kurta sets, our
+        collection encapsulates the rich heritage of Indian clothing. Come and
+        experience the charm of ageless elegance at Ram Bhawan Ram Yamuna
+        Prasad, where tradition meets style in the heart of Motihari.
       </p>
     </div>
   );
